@@ -22,7 +22,7 @@
 
 <body>
 
-    <nav class="full-height d-flex flex-column p-3 bg-dark col-2" ">
+    <nav class="full-height d-flex flex-column p-3 bg-dark col-2 ">
 
         <div class="d-flex align-items-center text-decoration-none" href="#" >
             <img src="img/eva-logo_login.png" alt="logo" height="30" class="eva_logo">
@@ -74,7 +74,7 @@
 
     </nav>
 
-    <div class="col-10 ps-3 d-flex align-items-center header-eva ">
+    <div class="col-10 ps-3 d-flex align-items-center header-eva bg-white">
 
         <header class="d-flex align-items-center custom-header ">
 
@@ -97,48 +97,149 @@
     
     <section>
 
-        <div class="col-8 p-3 box-feed d-flex flex-column justify-content-center ">
+        <div class="col-7 py-3 px-4 d-flex flex-column justify-content-center ">
 
             <div>
-                <input type="text" class="input-publi">
+                <input type="text" placeholder="¡Hola, Usario! ¿Qué publicación estás buscando?" class="input-publi w-100 p-2 mb-3">
             </div>
 
-            <article class="card-feed">
-                
-                <div>
-                    <img src="img/1731566_595783.jpeg" alt="foto de perfil" class="foto-perfil">
-                    <div>
-                        <h5>Título</h5>
-                        <span>Subtítulo ó Tag</span>
+            <div class="scroll-feed">
+                <article class="d-flex flex-column card-feed bg-white shadow container mt-2 px-4 ">
+            
+                    <div class="d-flex flex-row mt-4 mb-2 align-items-center">
+                        <img src="img/1731566_595783.jpeg" alt="foto de perfil" class="foto-perfil">
+                        <div class="ms-2 d-flex flex-column"> 
+                            <h5 class="mb-1">Título</h5>
+                            <span class="tag-card">Subtítulo ó Tag</span>
+                        </div>
+    
                     </div>
-
-                </div>
-
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id rutrum dui.
-                    Nulla a metus in tellus volutpat pulvinar. Donec placerat vel augue non cursus.
-                    Suspendisse vulputate ante urna, sed dapibus erat sagittis vitae.
-                    Pellentesque egestas nisl vel cursus elementum. Donec non ullamcorper ex, ut dapibus lectus.</p>
+    
+                    <p class="mb-3"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id rutrum dui.
+                        Nulla a metus in tellus volutpat pulvinar. Donec placerat vel augue non cursus.
+                        Suspendisse vulputate ante urna, sed dapibus erat sagittis vitae.
+                        Pellentesque egestas nisl vel cursus elementum. Donec non ullamcorper ex, ut dapibus lectus.</p>
+                    
+                     <img src="img/2a742533-be03-4ec5-86d0-23c1a16bb2ee.png" alt="" class="w-100 mb-2">
+    
+                     <div class="d-flex flex-row align-items-center">
+                            <i class="fa-solid fa-star fa-xs me-3"></i>
+                            <i class="fa-solid fa-heart fa-xs me-3"></i>
+                            <i class="fa-solid fa-crown fa-xs me-3"></i>
+                            <span class="n-interaction">20</span>
+                     </div>
+    
+                     <div class="d-flex justify-content-between post-button my-2 py-3">
+    
+                        <button class="d-flex flex-row align-items-center button-feed mx-4">
+                            <i class="fa-regular fa-star me-2"></i>
+                            <h6 class="mt-2 btnFeed-text">Me interesa</h6>
+                        </button>
+    
+                        <button class="d-flex flex-row align-items-center button-feed mx-4">
+                            <i class="fa-regular fa-heart me-2"></i>
+                            <h6 class="mt-2 btnFeed-text">Me emociona</h6>
+                        </button>
+    
+                        <button class="d-flex flex-row align-items-center button-feed mx-4">
+                            <i class="fa-solid fa-crown me-2"></i>
+                            <h6 class="mt-2 btnFeed-text">Me enorgullece</h6>
+                        </button>
+    
+                     </div>
+    
+                </article>
+                <article class="d-flex flex-column card-feed bg-white shadow container mt-2 px-4 ">
                 
-                 <img src="" alt="">
-
-            </article>
+                    <div class="d-flex flex-row mt-4 mb-2 align-items-center">
+                        <img src="img/1731566_595783.jpeg" alt="foto de perfil" class="foto-perfil">
+                        <div class="ms-2 d-flex flex-column"> 
+                            <h5 class="mb-1">Título</h5>
+                            <span class="tag-card">Subtítulo ó Tag</span>
+                        </div>
+    
+                    </div>
+    
+                    <p class="mb-3"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id rutrum dui.
+                        Nulla a metus in tellus volutpat pulvinar. Donec placerat vel augue non cursus.
+                        Suspendisse vulputate ante urna, sed dapibus erat sagittis vitae.
+                        Pellentesque egestas nisl vel cursus elementum. Donec non ullamcorper ex, ut dapibus lectus.</p>
+                    
+                     <img src="img/2a742533-be03-4ec5-86d0-23c1a16bb2ee.png" alt="" class="w-100 mb-2">
+    
+                     <div class="d-flex flex-row align-items-center">
+                            <i class="fa-solid fa-star fa-xs me-3"></i>
+                            <i class="fa-solid fa-heart fa-xs me-3"></i>
+                            <i class="fa-solid fa-crown fa-xs me-3"></i>
+                            <span class="n-interaction">20</span>
+                     </div>
+    
+                     <div class="d-flex justify-content-between post-button my-2 py-3">
+    
+                        <button class="d-flex flex-row align-items-center button-feed mx-4">
+                            <i class="fa-regular fa-star me-2"></i>
+                            <h6 class="mt-2 btnFeed-text">Me interesa</h6>
+                        </button>
+    
+                        <button class="d-flex flex-row align-items-center button-feed mx-4">
+                            <i class="fa-regular fa-heart me-2"></i>
+                            <h6 class="mt-2 btnFeed-text">Me emociona</h6>
+                        </button>
+    
+                        <button class="d-flex flex-row align-items-center button-feed mx-4">
+                            <i class="fa-solid fa-crown me-2"></i>
+                            <h6 class="mt-2 btnFeed-text">Me enorgullece</h6>
+                        </button>
+    
+                     </div>
+    
+                </article>
+            </div>
 
         </div>
-
-        <div class="col-2">
-
-
-
-        </div>
-
-
-
 
     </section>
 
-    <section class="col-2 p-3 box-horario">
+    <section class="col-3 m-0 p-2 box-horario">
 
+        <div class="bg-white">
+            <div>
+                <h6>Mis programación</h6>
+                <div>
+                    <span>Julio</span>
+                    <button>></button>
+                    <button><</button>
+                    <button>Esta semana</button>
+                </div>
+              
+            </div>
 
+            <article>
+                
+                <div class="d-flex flex-row gap-3 mt-3">
+                    <div class="fecha d-flex flex-column justify-content-start align-items-center">
+                        <span class="nombre-dia">Lun</span>
+                        <span class="fecha-dia">10</span>
+                    </div>
+    
+                    <div class="">
+                        <a href="">
+                            <span class="nombre-curso">CURSO A</span>
+                        </a>
+                        <div class="info-curso-grid">
+                            <span class="titulo-grid">Hora:</span>
+                            <span class="descripcion-grid">07:30 a.m. - 9:30 a.m. </span>
+                            <span class="titulo-grid">Clase:</span>
+                            <span class="descripcion-grid">Virtual</span>
+    
+                        </div>
+                    </div>
+                </div>
+
+               
+                
+            </article>
+        </div>
     </section>
 
 

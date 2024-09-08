@@ -1,5 +1,7 @@
 body{
     background-color: #eaeaea;
+    /*overflow: hidden;
+    height: 100%;*/
 }
 
 .eva_logo{
@@ -41,10 +43,22 @@ body{
 
 h1 {
     font-family: 'Mulish';
-    font-weight: 700;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 25px;
     padding-top: 10px;
     margin-right: auto;
+}
+
+h5{
+    font-family: 'Mulish';
+    font-weight: 800;
+    font-size: 18px;
+   
+}
+p{
+    font-family: 'Mulish';
+    font-weight: 500;
+    font-size: 16px;
 }
 
 .header-eva{
@@ -54,7 +68,6 @@ h1 {
 }
 
 .custom-header{
-    background-color: #ffffff;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -66,27 +79,88 @@ h1 {
     font-weight: 700;
 }
 
-.box-feed{
-    background-color: #d289f6;
+.scroll-feed{
+    height: 100vh;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
 
+.input-publi{
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    font-family: 'Mulish';
+    font-size: 16px;   
+}
+
+.input-publi::placeholder{
+    font-family: 'Mulish';
+    font-weight: 600;
+    font-size: 16px;   
+    color: #a5a5a5;
+    
+}
+
+.card-feed{
+    border-radius: 10px;
+
+}
+
+.foto-perfil{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.tag-card{
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 12px;
+    color: #828282;
+    
+}
+
+.n-interaction{
+    font-family: 'Mulish';
+    font-weight: 800;
+    font-size: 13px;
+    color: #828282;
+    
+}
+
+.post-button{
+    border-top: 1px solid #e8e8e8;
+}
+
+.button-feed{
+    border: none;
+    background-color: transparent;
+    color: #828282;
+}
+
+.button-feed:hover{
+    color: #d289f6;
+}
+
+.btnFeed-text{
+    font-family: 'Mulish';
+    font-weight: 500;
+    font-size: 14px;
+    color: #828282;
+}
+
+.btnFeed-text:hover{
+    color: #d289f6;
 }
 
 .box-horario{
     background-color: aqua;
+    height: 70vh;
 }
 
-.input-publi{
-    width: 100vh;
-}
-
-.card-feed{
-    display: flex;
-    justify-content: center;
-}
-
-.foto-perfil{
-    width: 40px;
-    height: 40px;
-    object-fit: cover;
-    border-radius: 50%;
+.info-curso-grid{
+    display: grid;
+    grid-template-columns: fit-content(100%) auto;
+    column-gap: 0.5rem;
 }
