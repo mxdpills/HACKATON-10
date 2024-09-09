@@ -2,6 +2,11 @@ body{
     background-color: #eaeaea;
     /*overflow: hidden;
     height: 100%;*/
+    
+}
+
+#cronograma-container a {
+    text-decoration: none;
 }
 
 .eva_logo{
@@ -55,6 +60,14 @@ h5{
     font-size: 18px;
    
 }
+
+h6{
+    font-family: 'Mulish';
+    font-weight: 800;
+    font-size: 20pt;
+   
+}
+
 p{
     font-family: 'Mulish';
     font-weight: 500;
@@ -101,7 +114,8 @@ p{
     
 }
 
-.card-feed{
+.card-feed,
+.card-horario{
     border-radius: 10px;
 
 }
@@ -155,12 +169,69 @@ p{
 }
 
 .box-horario{
-    background-color: aqua;
+    background-color: none;
     height: 70vh;
+}
+
+.nombre-mes{
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.nombre-semana{
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+.btn_programacion{
+    color: #b143e8;
+    font-family: 'Mulish';
+    font-weight: 800;
+    font-size: 14pt;
 }
 
 .info-curso-grid{
     display: grid;
     grid-template-columns: fit-content(100%) auto;
     column-gap: 0.5rem;
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 12pt;
+    color: #373737;
+
+}
+
+
+.nombre-dia{
+    font-family: 'Mulish';
+    font-weight: 800;
+    font-size: 17px;
+    color: #373737;
+}
+
+.fecha-dia{
+    font-family: 'Mulish';
+    font-weight: 800;
+    font-size: 17px;
+    color: #373737;
+}
+
+.nombre-curso{
+    font-family: 'Mulish';
+    font-weight: 800;
+    font-size: 17px;
+    color: #373737;
+    
+}
+
+.titulo-hora-grid {
+    color: #8d8d8d;
+    
+}
+
+.titulo-clase-grid{
+    color: #8d8d8d;
 }

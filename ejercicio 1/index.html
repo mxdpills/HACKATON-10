@@ -115,7 +115,7 @@
     
                     </div>
     
-                    <p class="mb-3"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id rutrum dui.
+                    <p class="mb-3 lh-sm"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id rutrum dui.
                         Nulla a metus in tellus volutpat pulvinar. Donec placerat vel augue non cursus.
                         Suspendisse vulputate ante urna, sed dapibus erat sagittis vitae.
                         Pellentesque egestas nisl vel cursus elementum. Donec non ullamcorper ex, ut dapibus lectus.</p>
@@ -149,7 +149,7 @@
                      </div>
     
                 </article>
-                <article class="d-flex flex-column card-feed bg-white shadow container mt-2 px-4 ">
+                <article class="d-flex flex-column card-feed bg-white shadow container mt-2 px-4">
                 
                     <div class="d-flex flex-row mt-4 mb-2 align-items-center">
                         <img src="img/1731566_595783.jpeg" alt="foto de perfil" class="foto-perfil">
@@ -160,7 +160,7 @@
     
                     </div>
     
-                    <p class="mb-3"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id rutrum dui.
+                    <p class="mb-3 lh-sm"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id rutrum dui.
                         Nulla a metus in tellus volutpat pulvinar. Donec placerat vel augue non cursus.
                         Suspendisse vulputate ante urna, sed dapibus erat sagittis vitae.
                         Pellentesque egestas nisl vel cursus elementum. Donec non ullamcorper ex, ut dapibus lectus.</p>
@@ -202,47 +202,172 @@
 
     <section class="col-3 m-0 p-2 box-horario">
 
-        <div class="bg-white">
+        <div class="bg-white mt-2 p-3 shadow container card-horario">
+
             <div>
-                <h6>Mis programación</h6>
-                <div>
-                    <span>Julio</span>
-                    <button>></button>
-                    <button><</button>
-                    <button>Esta semana</button>
+                <h6 class="mb-1">Mis programación</h6>
+
+                <div class="d-flex justify-content-around align-items-center">
+                    <span class="nombre-mes">Julio</span>
+                    <button class="btn btn_programacion m-0"><</button>
+                    <button class="btn btn_programacion m-0">></button>
+                    <span class="nombre-semana">Esta semana</span>
                 </div>
-              
+
             </div>
 
+            <!-- <article>
+                
+                <div class="d-flex flex-row gap-3 mt-1">
+                    <div class="fecha d-flex flex-column justify-content-start align-items-center">
+                        <span class="nombre-dia">Lun</span>
+                        <span class="fecha-dia">10</span>
+                    </div>
+    
+                    <div class="w-100">
+                        <a href="#" class="text-decoration-none">
+                            <span class="nombre-curso text-uppercase lh-1">Curso A</span>
+                        </a>
+                        <div class="info-curso-grid lh-sm">
+                            <span class="titulo-hora-grid">Hora:</span>
+                            <span class="hora-curso-grid ">07:30 a.m. - 9:30 a.m. </span>
+                            <span class="titulo-clase-grid">Clase:</span>
+                            <span class="tipo-curso-grid ">Virtual</span>
+    
+                        </div>
+                    </div>
+                </div>
+                
+            </article> -->
+           
+            
+           <div id="cronograma-container">
+
+           </div>
+
+            <!--  
             <article>
                 
-                <div class="d-flex flex-row gap-3 mt-3">
+                <div class="d-flex flex-row gap-3 mt-1">
                     <div class="fecha d-flex flex-column justify-content-start align-items-center">
                         <span class="nombre-dia">Lun</span>
                         <span class="fecha-dia">10</span>
                     </div>
     
                     <div class="">
-                        <a href="">
-                            <span class="nombre-curso">CURSO A</span>
+                        <a href="#" class="text-decoration-none">
+                            <span class="nombre-curso text-uppercase lh-1">Curso A</span>
                         </a>
-                        <div class="info-curso-grid">
-                            <span class="titulo-grid">Hora:</span>
-                            <span class="descripcion-grid">07:30 a.m. - 9:30 a.m. </span>
-                            <span class="titulo-grid">Clase:</span>
-                            <span class="descripcion-grid">Virtual</span>
+                        <div class="info-curso-grid lh-sm">
+                            <span class="titulo-grid ">Hora:</span>
+                            <span class="hora-curso-grid ">07:30 a.m. - 9:30 a.m. </span>
+                            <span class="titulo-grid ">Clase:</span>
+                            <span class="tipo-curso-grid ">Virtual</span>
     
                         </div>
                     </div>
                 </div>
-
-               
                 
             </article>
+            <article>
+                
+                <div class="d-flex flex-row gap-3 mt-1">
+                    <div class="fecha d-flex flex-column justify-content-start align-items-center">
+                        <span class="nombre-dia">Lun</span>
+                        <span class="fecha-dia">10</span>
+                    </div>
+    
+                    <div class="">
+                        <a href="#" class="text-decoration-none">
+                            <span class="nombre-curso text-uppercase lh-1">Curso A</span>
+                        </a>
+                        <div class="info-curso-grid lh-sm">
+                            <span class="titulo-grid ">Hora:</span>
+                            <span class="hora-curso-grid ">07:30 a.m. - 9:30 a.m. </span>
+                            <span class="titulo-grid ">Clase:</span>
+                            <span class="tipo-curso-grid ">Virtual</span>
+    
+                        </div>
+                    </div>
+                </div>
+                
+            </article>
+            <article>
+                
+                <div class="d-flex flex-row gap-3 mt-1">
+                    <div class="fecha d-flex flex-column justify-content-start align-items-center">
+                        <span class="nombre-dia">Lun</span>
+                        <span class="fecha-dia">10</span>
+                    </div>
+    
+                    <div class="">
+                        <a href="#" class="text-decoration-none">
+                            <span class="nombre-curso text-uppercase lh-1">Curso A</span>
+                        </a>
+                        <div class="info-curso-grid lh-sm">
+                            <span class="titulo-grid ">Hora:</span>
+                            <span class="hora-curso-grid ">07:30 a.m. - 9:30 a.m. </span>
+                            <span class="titulo-grid ">Clase:</span>
+                            <span class="tipo-curso-grid ">Virtual</span>
+    
+                        </div>
+                    </div>
+                </div>
+                
+            </article>
+            <article>
+                
+                <div class="d-flex flex-row gap-3 mt-1">
+                    <div class="fecha d-flex flex-column justify-content-start align-items-center">
+                        <span class="nombre-dia">Lun</span>
+                        <span class="fecha-dia">10</span>
+                    </div>
+    
+                    <div class="">
+                        <a href="#" class="text-decoration-none">
+                            <span class="nombre-curso text-uppercase lh-1">Curso A</span>
+                        </a>
+                        <div class="info-curso-grid lh-sm">
+                            <span class="titulo-grid ">Hora:</span>
+                            <span class="hora-curso-grid ">07:30 a.m. - 9:30 a.m. </span>
+                            <span class="titulo-grid ">Clase:</span>
+                            <span class="tipo-curso-grid ">Virtual</span>
+    
+                        </div>
+                    </div>
+                </div>
+                
+            </article>
+            <article>
+                
+                <div class="d-flex flex-row gap-3 mt-1">
+                    <div class="fecha d-flex flex-column justify-content-start align-items-center">
+                        <span class="nombre-dia">Lun</span>
+                        <span class="fecha-dia">10</span>
+                    </div>
+    
+                    <div class="">
+                        <a href="#" class="text-decoration-none">
+                            <span class="nombre-curso text-uppercase lh-1">Curso A</span>
+                        </a>
+                        <div class="info-curso-grid lh-sm">
+                            <span class="titulo-grid ">Hora:</span>
+                            <span class="hora-curso-grid ">07:30 a.m. - 9:30 a.m. </span>
+                            <span class="titulo-grid ">Clase:</span>
+                            <span class="tipo-curso-grid ">Virtual</span>
+    
+                        </div>
+                    </div>
+                </div>
+                
+            </article>  
+            -->
+            
         </div>
     </section>
 
-
+    <script src="js/ordenarArrayCursosAsignados.js"></script>
+    <script src="js/functMostrarCronograma.js"></script>
     <script src="js/activeButton.js"></script>
     <script src="js/dataCursos.js"></script>
 </body>
